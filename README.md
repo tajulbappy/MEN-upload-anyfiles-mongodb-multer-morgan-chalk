@@ -1,21 +1,31 @@
-**Folder Structure: **
+🚀 User Management API (Node.js + Express + MongoDB)
+
 │── config/
-│   ├── config.js
-│   └── db.js
+│    ├── config.js
+│    └── db.js
+│
 │── controllers/
-│   └── user.controller.js
+│    └── user.controller.js
+│
 │── models/
-│   └── user.model.js
+│    └── user.model.js
+│
 │── routes/
-│   └── user.route.js
-│── uploads/        ← (Stored uploaded files)
+│    └── user.route.js
+│
+│── uploads/       ← (Uploaded files stored here)
+│
 │── views/
-│   └── index.html
+│    └── index.html
+│
 │── .env
 │── .env.example
 │── app.js
 │── index.js
-│── package.json 
+│── package.json
+
+
+
 
 
 🛠 Technologies Used
@@ -24,12 +34,12 @@ Node.js
 
 Express.js
 
-Multer (file upload)
-
 MongoDB + Mongoose
 
-Morgan (request logging)
+Multer (File Uploads)
 
-dotenv
+Morgan (HTTP Request Logging)
 
-Render hosting support
+dotenv (Environment Variables)
+
+Render (Deployment Hosting)
